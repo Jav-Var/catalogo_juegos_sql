@@ -1,0 +1,13 @@
+id_usuario,handle,correo,fecha_registro,nombre,apellido
+1,gamer_alfa,alfa@correo.com,2025-01-10,Carlos,Mendoza
+2,shadow_hunter,shadow@correo.com,2025-01-15,Ana,Gomez
+3,pixel_art,pixel@correo.com,2025-02-01,Luis,Rodriguez
+4,cyber_punk,cyber@correo.com,2025-02-12,Elena,Martinez
+5,speedrunner,speedy@correo.com,2025-02-20,Jorge,Lopez
+6,valkyrie,valk@correo.com,2025-03-01,Sofia,Hernandez
+7,lofi_girl,lofi@correo.com,2025-03-05,Maria,Perez
+8,dragon_born,dragon@correo.com,2025-03-15,Pedro,Sanchez
+9,samurai_x,samurai@correo.com,2025-03-22,Kenji,Sato
+10,indie_lover,indie@correo.com,2025-04-02,Laura,Diaz
+11,tactical_mind,tactical@correo.com,2025-04-10,Andres,Castro
+12,retro_fan,retro@correo.com,2025-04-18,Diego,Torres
