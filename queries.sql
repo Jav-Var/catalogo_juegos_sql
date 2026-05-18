@@ -1,7 +1,7 @@
 
--- ------------
---  Consultas    
--- ------------
+-- --------- --
+-- Consultas --
+-- --------- --
 
 -- Juegos con mejor calificacion de cada desarrollador (Puede ser mas de uno si hay varios con la mejor calificacion para ese desarrollador)
 SELECT 
@@ -40,39 +40,48 @@ GROUP BY d.id_desarrollador, d.nombre
 HAVING COUNT(DISTINCT pj.id_plataforma) = 1;
 
 
+-- ------------------- --
+-- Consultas avanzadas --
+-- ------------------- --
 
-
-
-
-
--- Identificar a los usuarios "espectadores" (que han guardado juegos, pero nunca han escrito una reseña).
--- Útil para campañas de email marketing fomentando la participación. (no se chatgpt me dijo eso)
 SELECT 
-    u.handle, 
-    u.correo, 
-    COUNT(ujg.id_juego) AS juegos_guardados
+    j.nombre AS nombre_juego,
+    d.nombre AS desarrollador,
+    COUNT(r.id_resena) AS total_resenas,
+    ROUND(AVG(r.calificacion), 2) AS calificacion_promedio_usuarios,
+    MAX(r.calificacion) AS mejor_nota_recibida
+FROM juego j
+JOIN desarrollador d ON j.id_desarrollador = d.id_desarrollador
+JOIN resena r ON j.id_juego = r.id_juego
+GROUP BY j.id_juego, j.nombre, d.nombre
+HAVING COUNT(r.id_resena) >= 3
+ORDER BY calificacion_promedio_usuarios DESC, total_resenas DESC
+LIMIT 10;
+
+
+SELECT 
+    d.nombre AS estudio_desarrollador,
+    COUNT(DISTINCT j.id_juego) AS juegos_publicados,
+    COUNT(r.id_resena) AS total_resenas_recibidas,
+    SUM(CASE WHEN r.calificacion >= 8 THEN 1 ELSE 0 END) AS resenas_positivas,
+    ROUND(AVG(j.calificacion), 2) AS nota_oficial_promedio
+FROM desarrollador d
+LEFT JOIN juego j ON d.id_desarrollador = j.id_desarrollador
+LEFT JOIN resena r ON j.id_juego = r.id_juego
+GROUP BY d.id_desarrollador, d.nombre
+ORDER BY total_resenas_recibidas DESC;
+
+SELECT 
+    u.handle AS nombre_usuario,
+    u.fecha_registro,
+    COUNT(r.id_resena) AS cantidad_resenas_escritas,
+    ROUND(AVG(r.calificacion), 2) AS promedio_notas_otorgadas,
+    MIN(r.fecha_publicacion) AS fecha_primera_resena,
+    MAX(r.fecha_publicacion) AS fecha_ultima_resena
 FROM usuario u
-INNER JOIN usuario_juego_guardado ujg ON u.id_usuario = ujg.id_usuario
-LEFT JOIN resena r ON u.id_usuario = r.id_usuario
-WHERE r.id_resena IS NULL
-GROUP BY u.id_usuario, u.handle, u.correo;
+JOIN resena r ON u.id_usuario = r.id_usuario
+GROUP BY u.id_usuario, u.handle, u.fecha_registro
+ORDER BY cantidad_resenas_escritas DESC
+LIMIT 20;
 
 
--- Consultas sencillas
-
--- Lista los IDs de los desarrolladores junto a la cantidad total de títulos que tienen registrados.
-SELECT 
-    id_desarrollador, 
-    COUNT(*) AS total_juegos_registrados
-FROM juego
-GROUP BY id_desarrollador;
-
-
--- Juegos rpg
-SELECT 
-    j.nombre AS nombre_juego, 
-    g.nombre AS genero
-FROM genero g
-INNER JOIN juego_genero jg ON g.id_genero = jg.id_genero
-LEFT JOIN juego j ON jg.id_juego = j.id_juego
-WHERE g.nombre LIKE '%RPG%';
