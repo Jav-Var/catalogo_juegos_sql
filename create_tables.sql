@@ -65,7 +65,7 @@ CREATE TABLE plataforma_venta (
   PRIMARY KEY (id_plataforma)
 );
 
-CREATE TABLE generos (
+CREATE TABLE genero (
   id_genero int unsigned NOT NULL AUTO_INCREMENT,
   nombre    varchar(50)  NOT NULL UNIQUE,
   PRIMARY KEY (id_genero)
@@ -81,7 +81,7 @@ CREATE TABLE juego_genero (
     ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT fk_jg_genero
     FOREIGN KEY (id_genero)
-    REFERENCES generos (id_genero)
+    REFERENCES genero (id_genero)
     ON DELETE CASCADE ON UPDATE CASCADE
 );
 

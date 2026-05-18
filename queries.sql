@@ -1,4 +1,7 @@
 
+-- ------------
+--  Consultas    
+-- ------------
 
 -- Juegos con mejor calificacion de cada desarrollador (Puede ser mas de uno si hay varios con la mejor calificacion para ese desarrollador)
 SELECT 
@@ -15,11 +18,11 @@ WHERE j.calificacion = (
 );
 
 
--- Generos, junto a cuantos juegos hay de ese genero 
+-- Lista de genero, junto a cuantos juegos hay de cada genero 
 SELECT 
     g.nombre AS genero, 
     COUNT(jg.id_juego) AS total_juegos
-FROM generos g
+FROM genero g
 LEFT JOIN juego_genero jg ON g.id_genero = jg.id_genero
 GROUP BY g.id_genero, g.nombre
 ORDER BY total_juegos DESC;
@@ -35,6 +38,12 @@ INNER JOIN plataforma_juego pj ON j.id_juego = pj.id_juego
 INNER JOIN plataforma_venta pv ON pj.id_plataforma = pv.id_plataforma
 GROUP BY d.id_desarrollador, d.nombre
 HAVING COUNT(DISTINCT pj.id_plataforma) = 1;
+
+
+
+
+
+
 
 -- Identificar a los usuarios "espectadores" (que han guardado juegos, pero nunca han escrito una reseña).
 -- Útil para campañas de email marketing fomentando la participación. (no se chatgpt me dijo eso)
@@ -63,7 +72,7 @@ GROUP BY id_desarrollador;
 SELECT 
     j.nombre AS nombre_juego, 
     g.nombre AS genero
-FROM generos g
+FROM genero g
 INNER JOIN juego_genero jg ON g.id_genero = jg.id_genero
 LEFT JOIN juego j ON jg.id_juego = j.id_juego
 WHERE g.nombre LIKE '%RPG%';
