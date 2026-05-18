@@ -16,8 +16,8 @@ IGNORE 1 ROWS
 (id_desarrollador, nombre, @pagina_web) -- El último campo va a una variable
 SET pagina_web = NULLIF(REPLACE(@pagina_web, '\r', ''), ''); -- Limpia el \r y maneja vacíos como NULL
 
-LOAD DATA LOCAL INFILE 'Data csv/generos.csv'
-INTO TABLE generos
+LOAD DATA LOCAL INFILE 'Data csv/genero.csv'
+INTO TABLE genero
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'
@@ -61,7 +61,7 @@ SET fecha_publicacion = NULLIF(REPLACE(@fecha_publicacion, '\r', ''), '');
 -- FASE 3: Tablas con dependencias de segundo nivel (Tablas intermedias)
 -- ==============================================================================
 
--- Depende de: juego y generos
+-- Depende de: juego y genero
 LOAD DATA LOCAL INFILE 'Data csv/juego_genero.csv'
 INTO TABLE juego_genero
 FIELDS TERMINATED BY ',' 
