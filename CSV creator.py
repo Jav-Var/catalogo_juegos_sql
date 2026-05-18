@@ -288,23 +288,22 @@ comentarios_malos = [
 ]
 
 for i in range(1, 101):
-    # Alternar entre juegos top (como Elden Ring, Mario, etc.) y juegos malos
     if i % 4 == 0:
-        juego_id = 45 if i % 2 == 0 else 196  # Redfall o Gollum
+        juego_id = 45 if i % 2 == 0 else 196
         usuario_id = ((i * 7) % 50) + 1
         titulo = "Una estafa" if i % 2 == 0 else "Decepcion absoluta"
         comentario = comentarios_malos[i % 4]
         calif = 2
     elif i % 5 == 0:
-        juego_id = 191 if i % 2 == 0 else 124  # E.T. o Umbrella Corps
+        juego_id = 191 if i % 2 == 0 else 124
         usuario_id = ((i * 3) % 50) + 1
         titulo = "Horrible"
         comentario = comentarios_malos[(i + 1) % 4]
         calif = 1
     else:
-        juego_id = ((i * 2) % 200) + 1  # Distribuido
+        juego_id = ((i * 2) % 200) + 1
         if juego_id in [45, 107, 108, 124, 168, 177, 180, 185, 191, 196]:
-            juego_id = 142  # Forzar a Elden Ring si cae en uno malo para mantener balance positivo mayoritario
+            juego_id = 142
         usuario_id = ((i * 2) % 50) + 1
         titulo = "Juegazo!" if i % 2 == 0 else "Muy recomendado"
         comentario = comentarios_buenos[i % 4]
@@ -316,20 +315,19 @@ for i in range(1, 101):
 # 6. JUEGO_GENERO (100 mapeos coherentes)
 juego_genero_data = []
 for i in range(1, 101):
-    jg_juego = i * 2  # Asignar a juegos pares (2, 4, 6... 200)
-    # Asignaciones logicas basadas en el ID de juego mapeado en la lista real
-    if jg_juego <= 30:  # Nintendo / Sony
-        jg_genero = 8 if jg_juego <= 15 else 1   # Plataformas o Accion
-    elif jg_juego <= 60:  # Xbox / Valve
-        jg_genero = 14 if jg_juego <= 55 else 15 # FPS o TPS
-    elif jg_juego <= 110: # EA / Ubisoft / Square
-        jg_genero = 3 if jg_juego >= 96 else 2   # RPG o Aventura
-    elif jg_juego <= 132: # Capcom / CDPR
-        jg_genero = 10 if jg_juego <= 124 else 3 # Terror o RPG
-    elif jg_juego <= 155: # FromSoftware
-        jg_genero = 3 if jg_juego != 147 else 23 # RPG o Hack and Slash
+    jg_juego = i * 2
+    if jg_juego <= 30:
+        jg_genero = 8 if jg_juego <= 15 else 1
+    elif jg_juego <= 60:
+        jg_genero = 14 if jg_juego <= 55 else 15
+    elif jg_juego <= 110:
+        jg_genero = 3 if jg_juego >= 96 else 2
+    elif jg_juego <= 132:
+        jg_genero = 10 if jg_juego <= 124 else 3
+    elif jg_juego <= 155:
+        jg_genero = 3 if jg_juego != 147 else 23
     else:
-        jg_genero = 25  # Mundo Abierto (Rockstar, Sega, etc.)
+        jg_genero = 25
     
     juego_genero_data.append((jg_juego, jg_genero))
 
@@ -350,14 +348,37 @@ plataforma_venta_data = [
 # 8. PLATAFORMA_JUEGO (20 registros cruzados)
 plataforma_juego_data = [(5, i) for i in range(1, 11)] + [(1, i) for i in range(46, 56)]
 
-# 9. USUARIO_JUEGO_GUARDADO (20 registros cruzados)
-usuario_juego_guardado_data = [(i, i * 3) for i in range(1, 21)]
+
+# 9. USUARIO_JUEGO_GUARDADO (70 registros orgánicos y no homogéneos)
+usuario_juego_guardado_data = [
+    # --- JUEGOS POPULARES (Al menos 3 juegos con 10-12 registros cada uno) ---
+    # Juego 1 (Super Mario Odyssey) - Guardado por 11 usuarios
+    (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1),
+    # Juego 2 (The Legend of Zelda: BotW) - Guardado por 12 usuarios
+    (1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2),
+    # Juego 142 (Elden Ring) - Guardado por 11 usuarios
+    (5, 142), (6, 142), (7, 142), (8, 142), (9, 142), (10, 142), (11, 142), (12, 142), (13, 142), (14, 142), (15, 142),
+    
+    # --- DISTRIBUCIÓN LIGERAMENTE DISPERSA (36 registros restantes) ---
+    # Juego 6 (The Legend of Zelda: TotK) - Guardado por 6 usuarios
+    (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6),
+    # Juego 16 (God of War) - Guardado por 6 usuarios
+    (10, 16), (11, 16), (12, 16), (13, 16), (14, 16), (15, 16),
+    # Juego 47 (Portal 2) - Guardado por 6 usuarios
+    (20, 47), (21, 47), (22, 47), (23, 47), (24, 47), (25, 47),
+    # Juego 112 (Monster Hunter: World) - Guardado por 5 usuarios
+    (30, 112), (31, 112), (32, 112), (33, 112), (34, 112),
+    # Juego 126 (The Witcher 3: Wild Hunt) - Guardado por 7 usuarios
+    (40, 126), (41, 126), (42, 126), (43, 126), (44, 126), (45, 126), (46, 126),
+    # Juego 157 (Red Dead Redemption 2) - Guardado por 6 usuarios
+    (1, 157), (10, 157), (20, 157), (30, 157), (40, 157), (50, 157)
+]
 
 
 # ---- CONFIGURACIÓN ----
-CREAR_ZIP = False  # Cambia a False si deseas guardar archivos CSV individuales
+CREAR_ZIP = False  # Cambia a True si deseas empaquetarlo directamente en un archivo .zip
 
-# ---- EMPAQUETADO EN ZIP VIRTUAL ----
+# ---- EMPAQUETADO EN ZIP VIRTUAL / CARPETA ----
 nombre_zip = "Data csv.zip"
 
 def generar_csv_string(headers, rows):
@@ -383,7 +404,7 @@ if CREAR_ZIP:
     with zipfile.ZipFile(nombre_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for nombre, contenido in archivos_csv.items():
             zipf.writestr(nombre, contenido)
-    print(f"¡Exito! Se ha creado '{nombre_zip}' con todas tus especificaciones exactas.")
+    print(f"¡Éxito! Se ha creado '{nombre_zip}' con todas tus especificaciones exactas.")
 else:
     from pathlib import Path
     carpeta_datos = Path("Data csv")
@@ -391,4 +412,4 @@ else:
     for nombre, contenido in archivos_csv.items():
         archivo_path = carpeta_datos / nombre
         archivo_path.write_text(contenido, encoding='utf-8')
-    print(f"¡Exito! Se han creado los archivos CSV individuales en la carpeta '{carpeta_datos}'")
+    print(f"¡Éxito! Se han creado los archivos CSV individuales en la carpeta '{carpeta_datos}'")
