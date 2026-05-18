@@ -4,48 +4,198 @@ id_juego,id_desarrollador,nombre,calificacion,fecha_publicacion
 3,1,Splatoon 2,8,2017-07-21
 4,1,Mario Kart 8 Deluxe,9,2017-04-28
 5,1,Animal Crossing: New Horizons,9,2020-03-20
-6,2,God of War,10,2018-04-20
-7,2,Marvel's Spider-Man,9,2018-09-07
-8,2,The Last of Us Part II,9,2020-06-19
-9,2,Horizon Zero Dawn,9,2017-02-28
-10,2,Bloodborne,10,2015-03-24
-11,3,Halo Infinite,8,2021-12-08
-12,3,Forza Horizon 5,10,2021-11-09
-13,3,Gears 5,8,2019-09-10
-14,3,Sea of Thieves,7,2018-03-20
-15,3,Microsoft Flight Simulator,9,2020-08-18
-16,4,Half-Life: Alyx,10,2020-03-23
-17,4,Portal 2,10,2011-04-18
-18,4,Left 4 Dead 2,9,2009-11-17
-19,4,Dota 2,8,2013-07-09
-20,4,Counter-Strike: Global Offensive,8,2012-08-21
-21,5,Fortnite,8,2017-07-25
-22,5,Rocket League,9,2015-07-07
-23,5,Unreal Tournament,8,1999-11-30
-24,5,Gears of War,9,2006-11-07
-25,5,Infinity Blade,7,2010-12-09
-26,6,FIFA 23,7,2022-09-27
-27,6,The Sims 4,8,2014-09-02
-28,6,Battlefield 1,9,2016-10-21
-29,6,Apex Legends,9,2019-02-04
-30,6,Mass Effect Legendary Edition,10,2021-05-14
-31,7,Assassin's Creed Valhalla,8,2020-11-10
-32,7,Far Cry 6,7,2021-10-07
-33,7,Rainbow Six Siege,9,2015-12-01
-34,7,Watch Dogs: Legion,7,2020-10-29
-35,7,Rayman Legends,9,2013-08-29
-36,8,Final Fantasy VII Remake,9,2020-04-10
-37,8,Kingdom Hearts III,8,2019-01-25
-38,8,NieR: Automata,9,2017-02-23
-39,8,Dragon Quest XI,9,2017-07-29
-40,8,Tomb Raider,8,2013-03-05
-41,9,Resident Evil Village,9,2021-05-07
-42,9,Monster Hunter: World,9,2018-01-26
-43,9,Street Fighter V,7,2016-02-16
-44,9,Devil May Cry 5,9,2019-03-08
-45,9,Mega Man 11,8,2018-10-02
-46,10,The Witcher 3: Wild Hunt,10,2015-05-19
-47,10,Cyberpunk 2077,8,2020-12-10
-48,10,Gwent: The Witcher Card Game,8,2018-10-23
-49,10,Thronebreaker: The Witcher Tales,8,2018-10-23
-50,10,The Witcher 2: Assassins of Kings,9,2011-05-17
+6,1,The Legend of Zelda: Tears of the Kingdom,10,2023-05-12
+7,1,Super Smash Bros. Ultimate,10,2018-12-07
+8,1,Luigi's Mansion 3,9,2019-10-31
+9,1,Metroid Dread,9,2021-10-08
+10,1,Xenoblade Chronicles 3,9,2022-07-29
+11,1,Fire Emblem Engage,8,2023-01-20
+12,1,Super Mario Bros. Wonder,9,2023-10-20
+13,1,Donkey Kong Country: Tropical Freeze,9,2014-02-21
+14,1,Pikmin 4,9,2023-07-21
+15,1,Kirby and the Forgotten Land,9,2022-03-25
+16,2,God of War,10,2018-04-20
+17,2,Marvel's Spider-Man,9,2018-09-07
+18,2,The Last of Us Part II,9,2020-06-19
+19,2,Horizon Zero Dawn,9,2017-02-28
+20,2,Bloodborne,10,2015-03-24
+21,2,Uncharted 4: A Thief's End,10,2016-05-10
+22,2,Ghost of Tsushima,9,2020-07-17
+23,2,God of War Ragnarok,10,2022-11-09
+24,2,Gran Turismo 7,8,2022-03-04
+25,2,Ratchet & Clank: Rift Apart,9,2021-06-11
+26,2,Days Gone,7,2019-04-26
+27,2,The Last of Us Part I,9,2022-09-02
+28,2,Horizon Forbidden West,9,2022-02-18
+29,2,Infamous Second Son,8,2014-03-21
+30,2,Killzone Shadow Fall,7,2013-11-15
+31,3,Halo Infinite,8,2021-12-08
+32,3,Forza Horizon 5,10,2021-11-09
+33,3,Gears 5,8,2019-09-10
+34,3,Sea of Thieves,7,2018-03-20
+35,3,Microsoft Flight Simulator,9,2020-08-18
+36,3,Halo: The Master Chief Collection,9,2014-11-11
+37,3,Forza Motorsport,7,2023-10-10
+38,3,Gears of War 4,8,2016-10-11
+39,3,State of Decay 2,7,2018-05-22
+40,3,Sunset Overdrive,8,2014-10-28
+41,3,Quantum Break,7,2016-04-05
+42,3,Ori and the Will of the Wisps,10,2020-03-11
+43,3,Psychonauts 2,9,2021-08-25
+44,3,Starfield,7,2023-09-06
+45,3,Redfall,3,2023-05-02
+46,4,Half-Life: Alyx,10,2020-03-23
+47,4,Portal 2,10,2011-04-18
+48,4,Left 4 Dead 2,9,2009-11-17
+49,4,Dota 2,8,2013-07-09
+50,4,Counter-Strike 2,8,2023-09-27
+51,4,Half-Life 2,10,2004-11-16
+52,4,Portal,10,2007-10-10
+53,4,Team Fortress 2,9,2007-10-10
+54,4,Left 4 Dead,9,2008-11-18
+55,4,Half-Life,10,1998-11-19
+56,5,Fortnite,8,2017-07-25
+57,5,Rocket League,9,2015-07-07
+58,5,Unreal Tournament 3,7,2007-11-19
+59,5,Gears of War,9,2006-11-07
+60,5,Shadow Complex,9,2009-08-19
+61,5,Bulletstorm,8,2011-02-22
+62,5,Gears of War 2,9,2008-11-07
+63,5,Gears of War 3,9,2011-09-20
+64,5,Unreal Gold,8,1998-05-22
+65,5,Paragon,5,2016-03-18
+66,6,FIFA 23,7,2022-09-27
+67,6,The Sims 4,8,2014-09-02
+68,6,Battlefield 1,9,2016-10-21
+69,6,Apex Legends,9,2019-02-04
+70,6,Mass Effect Legendary Edition,10,2021-05-14
+71,6,Dead Space Remake,10,2023-01-27
+72,6,Star Wars Jedi: Survivor,9,2023-04-28
+73,6,It Takes Two,10,2021-03-26
+74,6,Need for Speed Unbound,7,2022-12-02
+75,6,Battlefield 2042,5,2021-11-19
+76,6,Anthem,4,2019-02-22
+77,6,Mass Effect: Andromeda,6,2017-03-21
+78,6,Dragon Age: Inquisition,9,2014-11-18
+79,6,Titanfall 2,10,2016-10-28
+80,6,SimCity (2013),5,2013-03-05
+81,7,Assassin's Creed Valhalla,8,2020-11-10
+82,7,Far Cry 6,7,2021-10-07
+83,7,Rainbow Six Siege,9,2015-12-01
+84,7,Watch Dogs: Legion,6,2020-10-29
+85,7,Rayman Legends,9,2013-08-29
+86,7,Assassin's Creed II,10,2009-11-17
+87,7,Far Cry 3,10,2012-11-29
+88,7,Tom Clancy's The Division 2,8,2019-03-15
+89,7,Ghost Recon Breakpoint,5,2019-10-04
+90,7,Immortal Fenyx Rising,8,2020-12-03
+91,7,Assassin's Creed Unity,6,2014-11-11
+92,7,South Park: The Stick of Truth,9,2014-03-04
+93,7,Prince of Persia: The Sands of Time,9,2003-11-06
+94,7,Skull and Bones,4,2024-02-16
+95,7,Just Dance 2024,7,2023-10-24
+96,8,Final Fantasy VII Remake,9,2020-04-10
+97,8,Kingdom Hearts III,8,2019-01-25
+98,8,NieR: Automata,10,2017-02-23
+99,8,Dragon Quest XI,9,2017-07-29
+100,8,Tomb Raider,8,2013-03-05
+101,8,Chrono Trigger,10,1995-03-11
+102,8,Final Fantasy VI,10,1994-04-02
+103,8,Final Fantasy XVI,9,2023-06-22
+104,8,Octopath Traveler II,9,2023-02-24
+105,8,Deus Ex: Mankind Divided,8,2016-08-23
+106,8,Just Cause 4,6,2018-12-04
+107,8,Babylon's Fall,2,2022-03-03
+108,8,Left Alive,3,2019-03-05
+109,8,Life is Strange,9,2015-01-30
+110,8,Sleeping Dogs,9,2012-08-14
+111,9,Resident Evil Village,9,2021-05-07
+112,9,Monster Hunter: World,10,2018-01-26
+113,9,Street Fighter V,7,2016-02-16
+114,9,Devil May Cry 5,10,2019-03-08
+115,9,Mega Man 11,8,2018-10-02
+116,9,Resident Evil 4 Remake,10,2023-03-24
+117,9,Resident Evil 7: Biohazard,9,2017-01-24
+118,9,Monster Hunter Rise,9,2021-03-26
+119,9,Street Fighter 6,10,2023-06-02
+120,9,Dead Rising,8,2006-08-08
+121,9,Okami,10,2006-04-20
+122,9,Phoenix Wright: Ace Attorney,9,2001-10-12
+123,9,Resident Evil 2 (1998),10,1998-01-21
+124,9,Umbrella Corps,2,2016-06-21
+125,9,Exoprimal,6,2023-07-14
+126,10,The Witcher 3: Wild Hunt,10,2015-05-19
+127,10,Cyberpunk 2077,9,2020-12-10
+128,10,Gwent: The Witcher Card Game,8,2018-10-23
+129,10,Thronebreaker: The Witcher Tales,8,2018-10-23
+130,10,The Witcher 2: Assassins of Kings,9,2011-05-17
+131,10,The Witcher: Enhanced Edition,7,2007-10-30
+132,10,Cyberpunk 2077: Phantom Liberty,10,2023-09-26
+133,11,Hollow Knight,10,2017-02-24
+134,11,Hollow Knight: Voidheart Edition,10,2018-09-25
+135,11,Hollow Knight: Silksong (Demo),8,2019-06-11
+136,12,Minecraft,10,2011-11-18
+137,12,Minecraft Dungeons,7,2020-05-26
+138,12,Minecraft Legends,6,2023-04-18
+139,13,Undertale,10,2015-09-15
+140,13,Deltarune Chapter 1,9,2018-10-31
+141,13,Deltarune Chapter 2,10,2021-09-17
+142,14,Elden Ring,10,2022-02-25
+143,14,Dark Souls,10,2011-09-22
+144,14,Dark Souls II,8,2014-03-11
+145,14,Dark Souls III,10,2016-03-24
+146,14,Sekiro: Shadows Die Twice,10,2019-03-22
+147,14,Armored Core VI: Fires of Rubicon,9,2023-08-25
+148,14,Demon's Souls,9,2009-02-05
+149,14,Bloodborne: The Old Hunters,10,2015-11-24
+150,14,Armored Core V,7,2012-03-20
+151,14,King's Field,7,1994-12-16
+152,14,Otogi: Myth of Demons,8,2002-12-12
+153,14,Ninja Blade,5,2009-01-29
+154,14,Dark Souls Remastered,9,2018-05-24
+155,14,Elden Ring: Shadow of the Erdtree,10,2024-06-21
+156,15,Grand Theft Auto V,10,2013-09-17
+157,15,Red Dead Redemption 2,10,2018-10-26
+158,15,Grand Theft Auto: San Andreas,10,2004-10-26
+159,15,Red Dead Redemption,10,2010-05-18
+160,15,Bully,9,2006-10-17
+161,15,L.A. Noire,9,2011-05-17
+162,15,Max Payne 3,9,2012-05-15
+163,15,Grand Theft Auto IV,10,2008-04-29
+164,15,Grand Theft Auto: Vice City,10,2002-10-29
+165,15,Grand Theft Auto III,9,2001-10-22
+166,15,Manhunt,8,2003-11-18
+167,15,Midnight Club 3: DUB Edition,9,2005-04-11
+168,15,GTA: The Trilogy - Definitive Edition,4,2021-11-11
+169,15,Red Dead Revolver,7,2004-05-04
+170,15,The Warriors,9,2005-10-17
+171,16,Metal Gear Solid 3: Snake Eater,10,2004-11-17
+172,16,Silent Hill 2,10,2001-09-24
+173,16,Castlevania: Symphony of the Night,10,1997-03-20
+174,16,Metal Gear Solid V: The Phantom Pain,9,2015-09-01
+175,16,Silent Hill 3,9,2003-05-23
+176,16,Contra,9,1987-02-20
+177,16,eFootball 2022,2,2021-09-30
+178,16,Metal Gear Solid,10,1998-09-03
+179,16,Super Bomberman R,6,2017-03-03
+180,16,Metal Gear Survive,4,2018-02-20
+181,17,Sonic the Hedgehog,9,1991-06-23
+182,17,Yakuza 0,10,2015-03-12
+183,17,Persona 5 Royal,10,2019-10-31
+184,17,Sonic Mania,9,2017-08-15
+185,17,Sonic the Hedgehog (2006),3,2006-11-14
+186,17,Yakuza: Like a Dragon,9,2020-01-16
+187,17,Alien: Isolation,9,2014-10-07
+188,17,Total War: WARHAMMER III,8,2022-02-17
+189,17,Sonic Frontiers,8,2022-11-08
+190,17,Sonic Forces,5,2017-11-07
+191,18,E.T. the Extra-Terrestrial,1,1982-12-01
+192,18,Asteroids,8,1979-11-01
+193,18,Centipede,8,1981-06-01
+194,18,Pong,8,1972-11-29
+195,18,RollerCoaster Tycoon,10,1999-03-31
+196,19,The Lord of the Rings: Gollum,2,2023-05-25
+197,19,Deponia,8,2012-01-27
+198,19,The Pillars of the Earth,8,2017-08-15
+199,20,Pokemon Scarlet,6,2022-11-18
+200,20,Pokemon Violet,6,2022-11-18
