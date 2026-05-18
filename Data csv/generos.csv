@@ -1,11 +1,11 @@
 id_genero,nombre
-1,Accion
+1,Acción
 2,Aventura
 3,RPG
 4,Estrategia
-5,Deportes
-6,Simulacion
+5,Simulación
+6,Deportes
 7,Carreras
-8,Shooter
-9,Terror
-10,Plataformas
+8,Plataformas
+9,Puzle
+10,Terror

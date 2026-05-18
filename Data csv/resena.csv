@@ -1,16 +1,11 @@
 id_resena,id_juego,id_usuario,titulo,comentario,calificacion,fecha_publicacion
-1,1,1,Obra Maestra,El mejor juego de mundo abierto que he jugado.,10,2025-01-11
-2,6,2,Increible historia,"Sony lo volvio a hacer, narrativa impecable.",10,2025-01-16
-3,11,3,"Buen gameplay, falta contenido",El multijugador es divertido pero aburre rapido.,7,2025-02-02
-4,16,4,Un clasico atemporal,Llevo jugando esto mas de una decada.,10,2025-02-13
-5,21,5,Mas de lo mismo,Pocos cambios respecto al aÃ±o pasado.,6,2025-02-21
-6,26,6,Mundo gigante,Muy bonito pero demasiado largo y repetitivo.,8,2025-03-02
-7,31,7,Excelente remake,Me encanto el sistema de combate dinamico.,9,2025-03-06
-8,36,8,Mucho miedo,Lady Dimitrescu es una gran villana.,9,2025-03-16
-9,41,9,Insuperable,Geralt de Rivia es el mejor personaje de los RPG.,10,2025-03-23
-10,46,10,Espectacular pero dificil,He morido 100 veces pero vale totalmente la pena.,10,2025-04-03
-11,2,1,Pura diversion,Imaginacion desbordante en cada nivel.,9,2025-01-12
-12,17,2,Detalle enfermizo,El nivel de realismo es simplemente absurdo.,10,2025-01-17
-13,42,4,Ya no tiene bugs,Ahora si es el juegazo que prometieron.,9,2025-02-15
-14,48,8,Mi favorito,La atmosfera gotica es inigualable.,10,2025-03-17
-15,34,12,Te hace pensar,La musica y la historia son arte puro.,10,2025-04-20
+1,1,1,Una maravilla,"El mejor juego de plataformas que he jugado, muy recomendado.",10,2023-02-01
+2,46,2,Juego de la década,"La historia es increíble, pero tiene algunos bugs menores.",9,2023-03-15
+3,12,3,Gráficos impresionantes,"Se siente como manejar en la vida real.",10,2023-04-20
+4,21,4,Divertido con amigos,"Me gusta mucho, pero la comunidad puede ser tóxica.",7,2023-05-10
+5,6,5,Épico,"El combate es fenomenal y la historia de Kratos es profunda.",10,2023-06-05
+6,27,6,Muy relajante,"Perfecto para pasar el rato construyendo casas.",8,2023-07-01
+7,41,7,Buen terror,"Me dio muchos sustos, los gráficos son geniales.",9,2023-08-15
+8,19,8,Difícil de aprender,"Tiene una curva de aprendizaje alta, pero es adictivo.",8,2023-09-10
+9,36,9,Excelente remake,"Captura la esencia del original con gráficos modernos.",9,2023-10-01
+10,47,10,Mejoró mucho,"Al principio tenía problemas, ahora es un juegazo.",8,2023-11-20
