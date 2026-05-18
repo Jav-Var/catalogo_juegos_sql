@@ -62,6 +62,12 @@ CREATE TABLE plataforma_venta (
   PRIMARY KEY (id_plataforma)
 ) 
 
+CREATE TABLE generos (
+  id_genero int unsigned NOT NULL AUTO_INCREMENT,
+  nombre varchar(50) NOT NULL,
+  PRIMARY KEY (id_genero)
+);
+
 CREATE TABLE juego_genero (
     id_juego int unsigned NOT NULL,
     id_genero int NOT NULL,
