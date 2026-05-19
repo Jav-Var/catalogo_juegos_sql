@@ -1,7 +1,3 @@
-
-CREATE DATABASE catalogo_juegos;
-USE catalogo_juegos;
-
 CREATE TABLE desarrollador (
   id_desarrollador int unsigned NOT NULL AUTO_INCREMENT,
   nombre           varchar(100) NOT NULL UNIQUE,
@@ -45,7 +41,7 @@ CREATE TABLE resena (
   id_usuario        int unsigned NOT NULL,
   titulo            varchar(150) NOT NULL,
   comentario        text,
-  calificacion      tinyint NOT NULL,
+  calificacion      tinyint unsigned NOT NULL,
   fecha_publicacion date NOT NULL,
   PRIMARY KEY (id_resena),
   CONSTRAINT resena_ibfk_1
