@@ -1,0 +1,201 @@
+id_resena,id_juego,id_usuario,titulo,comentario,calificacion,fecha_publicacion
+1,142,5,Obra maestra absoluta,El mejor diseño de mundo abierto que he experimentado jamás.,10,2024-03-01
+2,142,12,Difícil pero satisfactorio,He muerto mil veces pero no puedo dejar de jugar.,10,2024-03-05
+3,142,23,Arte puro,La dirección de arte es insuperable.,10,2024-03-10
+4,142,34,GOTY indiscutible,Simplemente FromSoftware en su máxima expresión.,10,2024-03-15
+5,142,45,Increíble mapa,Siempre hay algo nuevo por descubrir en cada rincón.,9,2024-03-20
+6,142,8,Un poco críptico,"La historia está escondida, pero el gameplay es perfecto.",9,2024-03-25
+7,142,17,Épico,Los jefes son memorables y las peleas increíbles.,10,2024-04-01
+8,142,28,Más de 100 horas,"Y sigo encontrando secretos, es inmenso.",10,2024-04-05
+9,142,39,No es para todos,"Puede ser frustrante al principio, pero vale la pena.",9,2024-04-10
+10,142,50,Música celestial,La banda sonora acompaña perfectamente cada combate.,10,2024-04-15
+11,142,2,Demasiado grande,A veces abruma la cantidad de contenido.,8,2024-04-20
+12,142,14,Builds infinitas,La rejugabilidad es ridícula.,10,2024-04-25
+13,142,27,Juego de la década,Pocos juegos logran atraparte de esta manera.,10,2024-05-01
+14,142,33,Esencial,"Si tienes consola, tienes que jugar esto.",10,2024-05-05
+15,2,4,Revolucionario,Cambió mi forma de ver los juegos de aventura.,10,2024-01-10
+16,2,19,Libertad total,Puedes ir a donde quieras desde el minuto uno.,10,2024-01-15
+17,2,22,Magia pura,Explorar Hyrule nunca fue tan divertido.,10,2024-01-20
+18,2,31,Físicas increíbles,El motor de físicas te permite hacer locuras.,9,2024-01-25
+19,2,42,Armas de cristal,"Odio que las armas se rompan, pero el resto es un 10.",8,2024-02-01
+20,2,7,Aventura épica,Me perdí horas solo cocinando y cazando.,10,2024-02-05
+21,2,16,Santuarios geniales,Los puzzles son creativos.,9,2024-02-10
+22,2,25,Arte hermoso,Estilo cel-shading precioso.,10,2024-02-15
+23,2,38,Algo vacío a veces,"Mucho espacio abierto, pero es relajante.",9,2024-02-20
+24,2,49,Obra de arte,"Es más que un juego, es una experiencia.",10,2024-02-25
+25,2,3,Clásico moderno,Nintendo se lució.,10,2024-03-02
+26,2,11,Increíble de explorar,Nunca aburre perderse por ahí.,10,2024-03-08
+27,2,29,Legendario,Justifica comprar la consola.,10,2024-03-12
+28,157,1,Realismo puro,Nunca había visto un mundo tan vivo y detallado.,10,2024-06-01
+29,157,10,La historia de Arthur,El mejor protagonista de los videojuegos.,10,2024-06-05
+30,157,21,Gráficos brutales,Se ve mejor que juegos de la generación actual.,10,2024-06-10
+31,157,30,Un poco lento,"Es una experiencia contemplativa, no para impacientes.",8,2024-06-15
+32,157,41,Lágrimas,El final me destruyó emocionalmente.,10,2024-06-20
+33,157,9,Obra cumbre,Rockstar no podrá superar esto fácilmente.,10,2024-06-25
+34,157,18,Cazar y pescar,Paso más tiempo en el campamento que en misiones.,9,2024-07-01
+35,157,24,Detalles absurdos,El nivel de detalle raya en la locura.,10,2024-07-05
+36,157,37,Cine hecho juego,La narrativa es impecable.,10,2024-07-10
+37,157,48,Demasiado pesado a veces,"Las animaciones son largas, pero aportan inmersión.",9,2024-07-15
+38,157,5,Inolvidable,Simplemente inolvidable.,10,2024-07-20
+39,126,6,El rey del RPG,Misiones secundarias mejores que muchas principales de otros juegos.,10,2024-08-01
+40,126,15,Geralt es el jefe,Excelente narrativa y personajes.,10,2024-08-05
+41,126,26,Juego del Gwent,Entré a jugar The Witcher y terminé jugando cartas 100 horas.,10,2024-08-10
+42,126,35,Mundo oscuro y maduro,Decisiones que realmente importan.,10,2024-08-15
+43,126,44,Combate tosco,El sistema de pelea ha envejecido regular.,8,2024-08-20
+44,126,13,Música celta increíble,La banda sonora es de lo mejor que he escuchado.,10,2024-08-25
+45,126,20,DLCs espectaculares,Blood and Wine es prácticamente otro juego.,10,2024-09-01
+46,126,32,Absorbente,Me olvidé de mi vida social por este juego.,10,2024-09-05
+47,126,43,Gran guion,Diálogos excelentes.,9,2024-09-10
+48,126,47,Imprescindible,Un antes y un después en la industria.,10,2024-09-15
+49,126,2,Simplemente Geralt,Una maravilla que todo fan del rol debe probar.,10,2024-09-20
+50,47,3,Puzzles brillantes,Diseño de niveles perfecto.,10,2024-10-01
+51,47,14,GlaDOS es todo,El humor negro y el guion son fantásticos.,10,2024-10-05
+52,47,23,Cooperativo irrompible,El modo de dos jugadores es de lo mejor.,10,2024-10-10
+53,47,36,Corto pero intenso,No le sobra ni un minuto.,9,2024-10-15
+54,47,45,Wheatley!,Un villano hilarante.,10,2024-10-20
+55,47,8,Perfección pura,No hay otro juego como Portal 2.,10,2024-10-25
+56,47,17,Desafía la mente,Te hace pensar en portales.,10,2024-11-01
+57,47,28,Juego de Valve clásico,Ojalá Valve supiera contar hasta 3.,10,2024-11-05
+58,47,39,Excelente curva,Te enseña mecánicas sin tutoriales aburridos.,9,2024-11-10
+59,47,50,Arte,Una verdadera joya de la industria.,10,2024-11-15
+60,156,1,Tres locos,Cambiar entre personajes es brutal.,10,2024-12-01
+61,156,12,El online es caos,Muy divertido jugar con amigos.,9,2024-12-05
+62,156,21,Clásico inmortal,Lleva una década vendiendo y se entiende por qué.,10,2024-12-10
+63,156,34,Satira pura,Un retrato ácido y divertido de la sociedad.,10,2024-12-15
+64,156,41,Los atracos son geniales,Las misiones de planeación me encantan.,9,2024-12-20
+65,156,10,Trevor,El mejor personaje de la historia de GTA.,10,2024-12-25
+66,156,22,Mundo detallado,Los Santos se siente real.,10,2025-01-01
+67,156,31,Tiempos de carga...,El modo online tarda mucho en entrar.,8,2025-01-05
+68,156,48,Increíble mapa,Volar aviones por la ciudad es genial.,9,2025-01-10
+69,156,5,GTA por excelencia,Es la fórmula refinada al máximo.,10,2025-01-15
+70,127,4,Lo arreglaron,Con el parche 2.0 es un juego completamente diferente.,9,2025-01-20
+71,127,15,Night City es hermosa,"La dirección de arte es de locos, la ciudad impresiona.",10,2025-01-25
+72,127,26,"Buena historia, mal inicio","Salió roto, pero ahora es disfrutable.",8,2025-02-01
+73,127,37,Keanu Reeves,Johnny Silverhand se roba el show.,9,2025-02-05
+74,127,46,Aún le falta,Prometieron un simulador de vida y es solo un buen shooter RPG.,7,2025-02-10
+75,127,7,Me encantó,Los personajes tienen mucho carisma y fondo.,9,2025-02-15
+76,127,19,Tremendo DLC,Phantom Liberty lo elevó de nivel.,10,2025-02-20
+77,127,30,Divertido pero con fallos,La conducción sigue siendo un poco rara.,8,2025-02-25
+78,1,2,Alegría pura,Nunca había sonreído tanto con un juego.,10,2024-03-05
+79,1,13,Capturas geniales,Lanzar a Cappy es una mecánica muy imaginativa.,10,2024-03-10
+80,1,24,Exploración perfecta,Cientos de lunas pero cada una es un mini reto.,9,2024-03-15
+81,1,35,Magia nintendera,Controles perfectos y pulidos al máximo.,10,2024-03-20
+82,1,44,Nostalgia,El festival en New Donk City me hizo llorar.,10,2024-03-25
+83,1,9,Divertido para todos,Mi hermano pequeño y yo lo amamos.,9,2024-03-30
+84,1,20,Obra maestra plataformera,El heredero digno de Mario 64.,10,2024-04-05
+85,1,33,Muy fácil al inicio,El post-game es donde está el reto real.,8,2024-04-10
+86,16,3,BOY!,Kratos maduró y el juego también.,10,2024-05-01
+87,16,14,El hacha Leviatán,Es el arma más satisfactoria de usar en un videojuego.,10,2024-05-05
+88,16,25,Plano secuencia,La dirección de cámaras es un logro técnico impresionante.,10,2024-05-10
+89,16,38,Mitología nórdica,Una reinvención espectacular de la franquicia.,9,2024-05-15
+90,16,49,Combate visceral,Cada golpe se siente pesado y destructivo.,10,2024-05-20
+91,16,6,Valquirias...,Sigrun me hizo sudar sangre.,9,2024-05-25
+92,16,18,Emotivo,La relación padre-hijo está muy bien escrita.,10,2024-05-30
+93,16,29,Pocos jefes,Faltó un poco de variedad de enemigos base.,8,2024-06-05
+94,196,4,Desastre total,Gráficos de PlayStation 2 y aburridísimo.,1,2024-07-01
+95,196,11,Basura inaceptable,Cómo se atrevieron a cobrar 60 dólares por esto.,1,2024-07-05
+96,196,27,Duele jugarlo,Los controles son lentos y toscos.,2,2024-07-10
+97,196,36,Por qué Gollum?,"De todos los personajes para hacer un juego, eligieron al peor.",2,2024-07-15
+98,196,43,Lleno de bugs,Atravieso paredes y me caigo al vacío constantemente.,1,2024-07-20
+99,196,8,Decepción,Soy fan del Señor de los Anillos y esto es un insulto.,2,2024-07-25
+100,196,21,Feísimo,El diseño artístico es un dolor para los ojos.,1,2024-07-30
+101,196,32,Dinero a la basura,Solicité el reembolso a la media hora.,1,2024-08-05
+102,196,48,No tiene sentido,Las mecánicas de sigilo están completamente rotas.,2,2024-08-10
+103,196,15,Catástrofe,Simplemente no hay nada rescatable aquí.,1,2024-08-15
+104,45,1,Vacío y aburrido,"La ciudad no tiene vida, no hay nada qué hacer.",3,2024-09-01
+105,45,10,IA de pena,Los vampiros se quedan parados mirándote.,2,2024-09-05
+106,45,22,"Microsoft, ¿qué pasó?",Un exclusivo de Xbox que salió fatal.,3,2024-09-10
+107,45,30,Monótono,Haces lo mismo las primeras y las últimas 10 horas.,4,2024-09-15
+108,45,41,Gráficos pobres,Las texturas cargan súper lento.,2,2024-09-20
+109,45,14,Arkane falló,No puedo creer que los creadores de Dishonored hicieran esto.,3,2024-09-25
+110,45,25,Inacabado,Se siente como una beta muy temprana.,2,2024-09-30
+111,136,5,Infinito,El límite es literalmente tu imaginación.,10,2024-10-01
+112,136,17,Relajante,Excavar buscando diamantes es mi terapia.,9,2024-10-05
+113,136,28,Juego generacional,Lo jugué de niño y ahora lo juego con mis hijos.,10,2024-10-10
+114,136,39,Modos infinitos,Con los mods es como tener mil juegos en uno.,10,2024-10-15
+115,136,46,Construcción,Me encanta hacer castillos enormes.,9,2024-10-20
+116,136,12,Creepers odiosos,"Me explotaron la casa entera, 10/10.",10,2024-10-25
+117,136,23,El rey del sandbox,Nada superará a Minecraft.,10,2024-11-01
+118,177,2,Qué le hicieron al PES,Destrozaron una franquicia mítica.,1,2024-11-05
+119,177,13,Gráficos de terror,Las caras de los jugadores dan miedo.,2,2024-11-10
+120,177,24,Injugable,Físicas del balón espantosas.,1,2024-11-15
+121,177,35,Menos mal es gratis,Y aun así siento que me robaron.,2,2024-11-20
+122,177,42,Cero contenido,No tiene modos de juego interesantes.,3,2024-11-25
+123,177,9,Pena ajena,Da vergüenza jugar esto.,1,2024-11-30
+124,76,7,Potencial desperdiciado,"Volar se sentía increíble, pero no había qué hacer.",4,2024-12-01
+125,76,18,Cargas eternas,Pasas más tiempo en pantallas de carga que jugando.,3,2024-12-05
+126,76,29,Loot aburrido,Las armas no se sentían diferentes.,4,2024-12-10
+127,76,40,Abandonado,EA lo mató y nos dejó sin nada.,2,2024-12-15
+128,76,50,Bonito cascarón,"Visualmente era top, jugablemente era un desastre.",5,2024-12-20
+129,76,3,Una estafa,Prometieron una revolución y entregaron mediocridad.,3,2024-12-25
+130,133,11,Joya indie,Es mejor que juegos de 70 dólares.,10,2025-01-01
+131,133,20,Dificultad perfecta,Te exige pero cuando lo logras la satisfacción es enorme.,10,2025-01-05
+132,133,31,Atmósfera única,Dirtmouth tiene una vibra increíble.,10,2025-01-10
+133,133,44,Diseño de mapa,El mejor Metroidvania desde Symphony of the Night.,10,2025-01-15
+134,133,6,Música triste y bella,Christopher Larkin hizo magia.,10,2025-01-20
+135,133,16,Mucho contenido,Por 15 dólares te dan contenido para 60 horas.,10,2025-01-25
+136,116,4,Un remake ejemplar,Mantuvieron lo bueno y mejoraron todo lo demás.,10,2025-02-01
+137,116,15,Leon es increíble,La acción es frenética y satisfactoria.,10,2025-02-05
+138,116,26,Tensión pura,El pueblo inicial sigue siendo una obra de diseño.,9,2025-02-10
+139,116,38,Visualmente tremendo,El motor RE Engine no decepciona.,10,2025-02-15
+140,116,47,Ashley ya no estorba,Hicieron que protegerla sea menos molesto.,9,2025-02-20
+141,116,8,Volví a mi infancia,Respeta totalmente el material original.,10,2025-02-25
+142,20,1,Caza sublime,La estética victoriana lovecraftiana es perfecta.,10,2024-03-01
+143,20,10,Rápido y letal,El combate te obliga a ser agresivo.,10,2024-03-05
+144,20,21,El mejor de From,"Para mí, superior a Dark Souls.",10,2024-03-10
+145,20,32,Lore profundo,Leer descripciones de ítems nunca fue tan fascinante.,9,2024-03-15
+146,20,43,Ojalá saliera en PC,Solo le faltan los 60 fps.,10,2024-03-20
+147,107,14,Servidores cerrados,"Duró menos de un año, qué desastre.",2,2024-04-01
+148,107,25,Feo como pocos,Intentaron un estilo acuarela que salió fatal.,2,2024-04-05
+149,107,36,Combate repetitivo,PlatinumGames tocó fondo con esto.,3,2024-04-10
+150,107,45,Robo a mano armada,Juego de precio completo lleno de microtransacciones.,1,2024-04-15
+151,107,7,Nadie lo jugó,Estaba yo solo en el servidor.,1,2024-04-20
+152,168,19,Lluvia de leche,La lluvia es un PNG blanco que te ciega.,2,2024-05-01
+153,168,30,Modelos deformes,Los personajes parecen de plastilina derretida.,3,2024-05-05
+154,168,41,Destrozaron mi infancia,Cómo permitieron que saliera en este estado.,2,2024-05-10
+155,168,5,IAs escalando,"Bugs por todas partes, coches volando solos.",4,2024-05-15
+156,168,12,Un port de móvil,Y encima es un mal port.,2,2024-05-20
+157,191,23,El peor de todos,Casi destruye la industria del videojuego.,1,2024-06-01
+158,191,34,Pozo infinito,"Caer en el hoyo y no poder salir, la pesadilla.",1,2024-06-05
+159,191,46,Confuso,Nunca entendí qué había que hacer.,1,2024-06-10
+160,191,16,Merece estar enterrado,Literalmente en el desierto.,2,2024-06-15
+161,44,27,Juego de Bethesda,Bugs habituales pero buena exploración.,7,2024-07-01
+162,44,38,Mucha pantalla de carga,"No te sientes en el espacio, sino en menús.",6,2024-07-05
+163,44,49,Buen combate,Las armas se sienten mejor que en Fallout.,8,2024-07-10
+164,44,2,Un poco plano,Falta el encanto clásico de los NPCs de Skyrim.,7,2024-07-15
+165,6,13,Construcciones locas,La habilidad de fusionar objetos rompe la mente.,10,2024-08-01
+166,6,24,Secuela digna,Superó a BotW en muchas mecánicas.,10,2024-08-05
+167,6,35,El subsuelo,"Oscuro y desafiante, una gran adición.",9,2024-08-10
+168,6,42,Milagro técnico,No sé cómo funciona esto en una Switch.,10,2024-08-15
+169,112,8,Cacerías épicas,Es brutal pelear contra bestias gigantes.,10,2024-09-01
+170,112,17,Armas profundas,Cada arma es como jugar un juego distinto.,9,2024-09-05
+171,112,28,Ecosistema vivo,Ver a los monstruos pelear entre ellos es genial.,10,2024-09-10
+172,86,39,Ezio Auditore,El mejor asesino de toda la saga.,10,2024-10-01
+173,86,50,Renacimiento,La ambientación en Italia es mágica.,10,2024-10-05
+174,86,3,Clásico dorado,Aquí fue cuando la saga encontró su identidad.,9,2024-10-10
+175,182,14,Drama y karaoke,Lloras con la historia y ríes con las secundarias.,10,2024-11-01
+176,182,25,Majima es Dios,Su arco narrativo es espectacular.,10,2024-11-05
+177,182,36,Combate callejero,Romper bicicletas en la cara de matones es genial.,9,2024-11-10
+178,185,47,IT'S NO USE,Pelear contra Silver es tortura.,2,2024-12-01
+179,185,4,Tiempos de carga infinitos,Hay una carga de 1 minuto para leer un diálogo.,2,2024-12-05
+180,185,15,Historia rarísima,Sonic besando a una princesa humana... no.,3,2024-12-10
+181,98,26,Filosofía y acción,Te hace cuestionar tu existencia.,10,2025-01-01
+182,98,37,Música de dioses,Keiichi Okabe compuso una obra de arte sonora.,10,2025-01-05
+183,75,48,Sin campaña y roto,Mapas vacíos y demasiados especialistas.,4,2025-02-01
+184,75,9,Mejoró un poco,"Con los últimos parches es jugable, pero decepciona.",6,2025-02-05
+185,94,20,Juego AAAA?,"Más bien ZZZZ, aburridísimo.",3,2025-03-01
+186,94,31,Mejor sigo en Black Flag,No entiendo qué hicieron en tantos años de desarrollo.,4,2025-03-05
+187,32,42,Conducción perfecta,"México se ve precioso, muy divertido.",10,2025-04-01
+188,32,5,Coches increíbles,Gran catálogo y sonido muy realista.,9,2025-04-05
+189,71,16,Terror puro,El diseño de sonido me daba taquicardia.,10,2025-04-10
+190,71,27,Gran remake,Actualizó justo lo que necesitaba y añadió cosas buenas.,9,2025-04-15
+191,42,38,Visualmente deslumbrante,Es como un cuadro en movimiento.,10,2025-04-20
+192,42,49,Plataformas de alta calidad,Preciso y con una historia muy conmovedora.,10,2025-04-25
+193,89,10,Un paso atrás,Wildlands era infinitamente superior a esto.,5,2025-05-01
+194,124,21,Insulto a Resident Evil,Shooter genérico sin alma ni diversión.,2,2025-05-02
+195,65,32,Cerró rápido,Era un MOBA bonito pero genérico.,5,2025-05-03
+196,108,43,Tosco,Ideas interesantes ejecutadas horriblemente.,3,2025-05-04
+197,180,1,Sin Kojima no hay Metal Gear,Metieron zombis con cristales... pésima idea.,3,2025-05-05
+198,125,12,Dinosaurios vs Mechas,Concepto gracioso pero se agota a las 5 horas.,6,2025-05-06
+199,101,23,El mejor RPG clásico,Chrono Trigger es simplemente intocable.,10,2025-05-07
+200,102,34,Historia inigualable,Final Fantasy VI tiene el mejor villano.,10,2025-05-08
